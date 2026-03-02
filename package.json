@@ -1,0 +1,14 @@
+{
+  "name": "@csga-global/cobol-bridge",
+  "version": "1.0.0",
+  "description": "Connect legacy COBOL mainframe systems to modern AI governance via MCP",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "build": "echo 'Build complete'" },
+  "keywords": ["cobol", "mcp", "mainframe", "ai-governance", "compliance"],
+  "author": "CSGA Global <james@csga-global.org>",
+  "license": "MIT",
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.4", "express": "^4.18.2", "cors": "^2.8.5" },
+  "engines": { "node": "18.x" },
+  "repository": { "type": "git", "url": "https://github.com/CSOAI-ORG/cobol-bridge.git" },
+  "homepage": "https://csga-global.org/mcp/cobol-bridge"
+}
